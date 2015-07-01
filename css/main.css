@@ -1,0 +1,151 @@
+html{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0em;
+  margin: 0em;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0em;
+  padding: 0em;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.banner{
+  margin: 0em;
+  padding: 1em;
+  text-align: center;
+  background-color: #87d1c2;
+}
+
+.banner h1{
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0em;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.banner img{
+  width: 90%;
+}
+
+nav{
+  padding: 0em;
+  margin: 0em;
+  width: 100%;
+}
+
+nav ol{
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+
+nav li{
+  background-color: #939598;
+  float: left;
+  margin: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-block;
+  width: calc(100% / 2);
+  text-align: center;
+  border: 1px dashed #6d6e71;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li:hover{
+  background-color: #6d6e71;
+}
+
+.tagline{
+  text-align: center;
+  background-color: #bcbec0;
+  padding: 4.5em .5em .5em .5em;
+  min-height: 10em;
+  width: 100%;
+
+}
+
+.box{
+  margin: 0em;
+  padding: .75em;
+  background-color: #bcbec0;
+  overflow: hidden;
+  clear: both;
+}
+
+.box img{
+  width: 100%;
+}
+
+.box-2{
+  margin: 0em;
+  padding: .75em;
+  background-color: #fff;
+  overflow: hidden;
+  clear: both;
+}
+
+.buttons{
+  padding: 0em;
+  margin: 0em;
+  width: 100%;
+}
+
+.buttons ol{
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
+  overflow: hidden;
+}
+
+.buttons li{
+  background-color: #939598;
+  float: left;
+  margin: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border: 1px dashed #6d6e71;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons li:hover{
+  background-color: #6d6e71;
+}
+
+footer{
+  background-color:#939598;
+  padding: .5em .5em 4em 2em;
+  margin: 1em 0em 0em 0em;
+}
+
+.social-media img{
+  width: 15%;
+}
+
+.social-media{
+  margin: 0em;
+  padding: 1.25em 1em 0em 0em;
+  text-align: right;
+}
+
+.text{
+  display: inline-block;
+  float: left;
+}
